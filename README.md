@@ -3,11 +3,11 @@
 background image: https://unsplash.com/photos/pink-green-and-yellow-striped-illustration-el5ZXkPvd0o
 
 colors:
-green: 123, 74%, 39%
-red: 353, 100%, 50%
-light blue: 143, 64%, 79%
-pink: 6, 99%, 64%
-orange: 35, 90%, 52%
+green: 123, 74%, 39%, 1aae22
+red: 353, 100%, 50%, fd001c
+light blue: 143, 64%, 79%, a8ecc2
+pink: 6, 99%, 64%, fe5b48
+orange: 35, 90%, 52%, f39816
 
 Creating a person portfolio: displaying projects, about me/resume, skills and contact. Trying to highlight some personal touches.
 
@@ -59,4 +59,3 @@ export default tseslint.config({
   },
 });
 ```
-# portfolio-react
