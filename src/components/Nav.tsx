@@ -1,10 +1,12 @@
-import { IoLogoLinkedin, IoLogoGithub, IoMdMail } from "react-icons/io";
+import { FaLinkedin, FaGithub, FaEnvelope } from "react-icons/fa";
 function Nav() {
   return (
     <div className="nav">
-      <IoLogoLinkedin />
-      <IoLogoGithub />
-      <IoMdMail />
+      <FaLinkedin />
+      <FaGithub />
+      <button>PROJECTS</button>
+      <button>ABOUT</button>
+      <FaEnvelope />
     </div>
   );
 }
