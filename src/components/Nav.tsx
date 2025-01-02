@@ -4,8 +4,8 @@ function Nav() {
     <div className="nav">
       <FaLinkedin />
       <FaGithub />
-      <button>PROJECTS</button>
-      <button>ABOUT</button>
+      {/* <button>PROJECTS</button>
+      <button>ABOUT</button> */}
       <FaEnvelope />
     </div>
   );

@@ -9,7 +9,7 @@ light blue: 143, 64%, 79%, a8ecc2
 pink: 6, 99%, 64%, fe5b48
 orange: 35, 90%, 52%, f39816
 
-Creating a person portfolio: displaying projects, about me/resume, skills and contact. Trying to highlight some personal touches.
+Creating a person portfolio: displaying projects, about me/resume, skills and contact. Trying to highlight some personal touches. make each piece look like a file folder with animation of opening a file and a pile of papers for each project.
 
 icons:
 FaDownload, FaHouse, FaBars, FaXmark, FaLink, FaFilePdf,

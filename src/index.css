@@ -79,7 +79,7 @@ button:focus-visible {
   justify-content: end;
   align-items: center;
   margin: 15px;
-  width: 100%;
+  width: 70%;
   height: 1em;
 }
 .header {
@@ -88,14 +88,18 @@ button:focus-visible {
   justify-content: space-between;
   flex-direction: column;
   background-color: hsl(143, 64%, 79%, 0.6);
-  border-radius: 10px;
+  border: 2px solid #fe5b48;
+  border-radius: 5px;
   padding: 15px;
 }
 .header h1 {
   font-size: 600%;
+  text-shadow: 1px 1px hsl(123, 74%, 39%, 0.8);
 }
 .header h4 {
   font-size: 150%;
+  text-shadow: 1px 1px hsl(123, 74%, 39%, 0.8);
+
   margin-top: 0%;
 }
 .proDivContain {
@@ -103,7 +107,7 @@ button:focus-visible {
   align-items: center;
   justify-content: center;
   flex-direction: row;
-  width: 90%;
+  width: 95%;
   flex-wrap: wrap;
 }
 .proDiv {
@@ -113,6 +117,7 @@ button:focus-visible {
   align-items: center;
   justify-content: center;
   padding: 10px;
+  border: 2px solid #fe5b48;
   border-radius: 5px;
   margin: 10px;
   flex-direction: column;
@@ -120,6 +125,7 @@ button:focus-visible {
   width: 80%;
   font-weight: 500;
   font-family: inherit;
+  text-shadow: 1px 1px hsl(123, 74%, 39%, 0.8);
 }
 
 .divAboutSkills {
@@ -138,15 +144,56 @@ button:focus-visible {
   align-items: center;
   justify-content: center;
   padding: 10px;
+  border: 2px solid #fe5b48;
   border-radius: 5px;
   margin: 10px;
   flex-direction: column;
   text-wrap: wrap;
-  width: 80%;
   font-weight: 500;
   font-family: inherit;
+  text-shadow: 1px 1px hsl(123, 74%, 39%, 0.8);
 }
 .list {
   list-style: none;
   display: flex;
+}
+.divForm {
+  background-color: hsl(143, 64%, 79%, 0.6);
+  width: 78%;
+  border-radius: 5px;
+  height: min-content;
+}
+.form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-weight: 500;
+  text-shadow: 1px 1px hsl(123, 74%, 39%, 0.8);
+  border: 2px solid #fe5b48;
+  border-radius: 5px;
+}
+#name,
+#email,
+#message,
+#submit {
+  border-radius: 5px;
+  border: 2px solid #fe5b48;
+  margin: 5px;
+  padding: 5px;
+}
+.form p {
+  width: 70%;
+}
+.footer {
+  background-color: hsl(143, 64%, 79%, 0.6);
+  border: 2px solid #fe5b48;
+  text-shadow: 1px 1px hsl(123, 74%, 39%, 0.8);
+
+  width: 78%;
+  border-radius: 5px;
+  height: min-content;
+  padding: 10px, 10px, 10px, 10px;
+  margin: 10px;
+  font-weight: 500;
 }
