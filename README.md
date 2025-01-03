@@ -12,7 +12,19 @@ orange: 35, 90%, 52%, f39816
 Creating a person portfolio: displaying projects, about me/resume, skills and contact. Trying to highlight some personal touches. make each piece look like a file folder with animation of opening a file and a pile of papers for each project.
 
 icons:
-FaDownload, FaHouse, FaBars, FaXmark, FaLink, FaFilePdf,
+FaDownload, FaHouse, FaBars, FaXmark, FaLink, FaFilePdf, FaJs,
+FaHtml5,
+FaCss3Alt,
+FaGithub,
+FaSlack,
+FaReact,
+FaNode,
+FaUnsplash,
+FaNpm,
+FaGit,
+FaBug,
+FaTerminal,
+FaCodeBranch,
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 

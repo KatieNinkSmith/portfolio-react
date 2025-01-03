@@ -6,9 +6,10 @@ function ProjectList() {
   return (
     <div className="proDivContain">
       {projects.map((project) => (
-        <div className="proDiv" key={project._id}>
-          <h3>{project.name}</h3>
-          <p>{project.description}</p>
+        <div className="proDivBack">
+          <div className="proDiv" key={project._id}>
+            <h3>{project.name}</h3>
+          </div>
         </div>
       ))}
     </div>
