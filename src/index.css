@@ -3,9 +3,8 @@
   line-height: 1.5;
   font-weight: 400;
   color-scheme: light dark;
-  color: hsl(35, 90%, 52%);
+  color: hsl(21, 90%, 62%);
   background-color: hsl(0, 0%, 93%);
-  background-image: url("https://images.unsplash.com/photo-1614850715776-a749a85b4144?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
   background-size: cover;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -19,13 +18,21 @@
   align-items: center;
   flex-direction: column;
 }
+#logo {
+  width: 50px;
+}
 .nav {
   display: flex;
-  justify-content: end;
+  justify-content: space-between;
   align-items: center;
   margin: 10px;
-  width: 80%;
+  width: 100%;
   height: 1em;
+}
+#navLinks {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .header {
   display: flex;
@@ -35,13 +42,13 @@
   width: 100%;
   background-image: url("https://plus.unsplash.com/premium_photo-1723652586740-8476e0471783?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDF8fGNvcmt8ZW58MHx8MHx8fDA%3D");
   border: 5px solid hsl(33, 70%, 72%);
-  padding: 25px;
-  margin-bottom: 65px;
+  padding: 20px;
+  margin: 20px;
 }
 .header h1 {
   margin: 4px;
   font-size: 400%;
-  text-shadow: 1px 1px hsl(123, 74%, 39%, 0.8);
+  text-shadow: 1px 1px hsl(275, 65%, 24%, 0.8);
   background-color: #eeeeee;
   box-shadow: 2px 4px 4px hsl(0, 0%, 0%, 0.5);
   padding: 15px;
@@ -50,7 +57,7 @@
 .header h4 {
   font-size: 150%;
   margin: 4px;
-  text-shadow: 1px 1px hsl(123, 74%, 39%, 0.8);
+  text-shadow: 1px 1px hsl(275, 65%, 24%, 0.8);
   background-color: #eeeeee;
   box-shadow: 2px 4px 4px hsl(0, 0%, 0%, 0.5);
   padding: 25px;
@@ -67,8 +74,7 @@
   z-index: 1;
 }
 .proDiv {
-  margin-top: -150px;
-  color: hsl(35, 90%, 52%);
+  color: hsl(21, 90%, 62%);
   background-color: hsl(41, 60%, 77%);
   display: flex;
   align-items: start;
@@ -78,11 +84,11 @@
   border-radius: 5px;
   flex-direction: column;
   text-wrap: wrap;
-  width: 97%;
+  width: 96%;
   height: 250px;
   font-weight: 500;
   font-family: inherit;
-  text-shadow: 1px 1px hsl(123, 74%, 39%, 0.8);
+  text-shadow: 1px 1px hsl(275, 65%, 24%, 0.8);
   z-index: 2;
   clip-path: polygon(
     28% 0,
@@ -97,9 +103,8 @@
 }
 
 .proDivBack {
-  margin-top: -50px;
   width: 100%;
-  background-color: hsl(42, 42%, 64%);
+  background-color: hsl(33, 71%, 68%);
   border-radius: 5px;
   z-index: 1;
 }
@@ -109,45 +114,20 @@
   align-items: center;
   justify-content: center;
   flex-direction: row;
-  width: 90%;
+  width: 100%;
+  height: 300px;
   background-image: url("https://plus.unsplash.com/premium_photo-1723652586740-8476e0471783?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDF8fGNvcmt8ZW58MHx8MHx8fDA%3D");
   border: 5px solid hsl(33, 70%, 72%);
-  padding: 25px;
-  margin-top: 45px;
-}
-.aboutSkills {
-  width: 50%;
-  height: 400px;
-  color: hsl(35, 90%, 52%);
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  margin: 20px;
   padding: 10px;
-  margin: 10px;
-  flex-direction: column;
-  text-wrap: wrap;
-  font-weight: 500;
-  font-family: inherit;
-  text-shadow: 1px 1px hsl(123, 74%, 39%, 0.8);
-}
-.planBoard {
-  background-color: #eeeeee;
-  box-shadow: 2px 4px 4px hsl(0, 0%, 0%, 0.5);
-  padding: 15px;
-  clip-path: polygon(0 3%, 97% 0, 98% 96%, 2% 98%);
-}
-.list {
-  list-style: none;
-  display: flex;
-  clip-path: polygon(0 3%, 100% 7%, 98% 96%, 2% 98%);
 }
 .divForm {
-  width: 93%;
+  width: 100%;
   height: min-content;
   background-image: url("https://plus.unsplash.com/premium_photo-1723652586740-8476e0471783?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDF8fGNvcmt8ZW58MHx8MHx8fDA%3D");
   border: 5px solid hsl(33, 70%, 72%);
-  padding: 15px;
-  margin: 15px;
+  margin: 20px;
+  padding: 10px;
 }
 .form {
   display: flex;
@@ -155,7 +135,7 @@
   justify-content: center;
   flex-direction: row;
   font-weight: 400;
-  text-shadow: 1px 1px hsl(123, 74%, 39%, 0.8);
+  text-shadow: 1px 1px hsl(275, 65%, 24%, 0.8);
   border-radius: 5px;
   background-color: #eeeeee;
   box-shadow: 2px 4px 4px hsl(0, 0%, 0%, 0.5);
@@ -205,7 +185,7 @@
 .footer {
   background-color: hsl(143, 64%, 79%, 0.6);
   border: 2px solid #fe5b48;
-  text-shadow: 1px 1px hsl(123, 74%, 39%, 0.8);
+  text-shadow: 1px 1px hsl(275, 65%, 24%, 0.8);
 
   width: 78%;
   border-radius: 5px;

@@ -1,19 +1,16 @@
-import Nav from "./components/Nav";
-import Header from "./components/Header";
-import ProjectList from "./components/Projects";
-import AboutSkills from "./components/AboutSkills";
-import Contact from "./components/Contact";
-import Footer from "./components/Footer";
+import { Route, Routes } from "react-router";
+import Project from "./pages/Project";
 import "./App.css";
+import Nav from "../src/components/Nav";
+import Footer from "../src/components/Footer";
 
 function App() {
   return (
-    <div className="container">
+    <div>
       <Nav />
-      <Header />
-      <ProjectList />
-      <AboutSkills />
-      <Contact />
+      <Routes>
+        <Route path="/" element={<Project />} />
+      </Routes>
       <Footer />
     </div>
   );
